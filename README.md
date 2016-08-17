@@ -1,4 +1,4 @@
-# react-state
+# react-state-input
 
 > US State input component for react
 
@@ -10,14 +10,14 @@
 ## Install
 
 ```
-$ npm install --save react-state
+$ npm install --save react-state-input
 ```
 
 
 ## Usage
 
 ```js
-import State from 'react-state'
+import State from 'react-state-input'
 
 ..
 
