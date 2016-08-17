@@ -19,7 +19,8 @@ export default class State extends Component {
   }
 
   format (event) {
-    const value = event.target.value.toUpperCase()
+    // remove all non alphabetic characters and transform to uppercase
+    const value = event.target.value.replace(/[^a-zA-Z]/gi, '').toUpperCase()
     const validValue = states.validate(value)
 
     this.setState({

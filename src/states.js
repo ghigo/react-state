@@ -1,3 +1,4 @@
+// https://gist.github.com/mshafrir/2646763
 const stateMap = {
   'AL': 'Alabama',
   'AK': 'Alaska',
